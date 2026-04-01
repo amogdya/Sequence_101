@@ -13,7 +13,7 @@ sequence_101 dut (
 .out(out),
 .state(state),
 .rst(rst),
-.clk50(clk)
+.clk(clk)
 );
 
 //apply stimuli
