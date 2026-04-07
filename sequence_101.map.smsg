@@ -1,1 +1,1 @@
-Warning (10268): Verilog HDL information at clk_div.v(25): always construct contains both blocking and non-blocking assignments File: C:/FSM Demo/Quartus/Sequence_101/clk_div.v Line: 25
+Warning (10268): Verilog HDL information at clk_div.v(27): always construct contains both blocking and non-blocking assignments File: C:/Users/USER/Desktop/FSM_DEMO/Sequence_101/clk_div.v Line: 27

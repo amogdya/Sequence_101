@@ -1,0 +1,15 @@
+|sequence_101
+in => nxt.s3.DATAB
+in => Selector1.IN2
+in => Selector0.IN0
+in => Selector0.IN1
+in => nxt.s2.DATAB
+out << out.DB_MAX_OUTPUT_PORT_TYPE
+state[0] << state.DB_MAX_OUTPUT_PORT_TYPE
+state[1] << state.DB_MAX_OUTPUT_PORT_TYPE
+rst => pre~3.DATAIN
+clk => pre~1.DATAIN
+clk_out << <GND>
+clk_led << <GND>
+
+
