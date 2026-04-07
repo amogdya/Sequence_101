@@ -18,7 +18,7 @@ input clk_in;
 output reg clk_out=1'b0;
 output reg clk_led=1'b0;
 
-//1s clock @50MHz
+//3s clock @50MHz
 parameter integer TICKS_1_5S = 75_000_000;// no. of ticks per 0.5s
 reg [26:0]tick_cnt = 27'b0;
 
