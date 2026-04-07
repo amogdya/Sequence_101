@@ -12,11 +12,11 @@ France Austin Doctora
 Date: 
 31 Mar 2026
 ===========================================*/
-module sequence_101(in,out,state,rst,clk50,clk_out,clk_led);
+module sequence_101(in,out,state,rst,clk,clk_out,clk_led);
 //ports
 input in;
 input rst;
-input clk50;
+input clk;
 output clk_out;
 output clk_led;
 output reg out;
@@ -31,11 +31,7 @@ reg [1:0] pre;
 reg [1:0] nxt;
 
 
-clk_div div(
-.clk_out(clk),
-.clk_in(clk50),
-.clk_led(clk_led)
-);
+
 
 //input block
 always@(in,pre)begin
