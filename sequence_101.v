@@ -12,6 +12,7 @@ France Austin Doctora
 Date: 
 31 Mar 2026
 ===========================================*/
+
 module sequence_101(in,out,state,rst,clk);
 //ports
 input in;
@@ -27,6 +28,11 @@ parameter [1:0] s2 = 2'b10;
 parameter [1:0] s3  = 2'b11;
 reg [1:0] pre;
 reg [1:0] nxt;
+
+
+
+
+
 
 
 //input block

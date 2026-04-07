@@ -1,5 +1,5 @@
 Fitter report for sequence_101
-Tue Apr  7 11:04:29 2026
+Tue Apr  7 11:47:46 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -68,7 +68,7 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Fitter Status                      ; Successful - Tue Apr  7 11:04:29 2026           ;
+; Fitter Status                      ; Successful - Tue Apr  7 11:47:46 2026           ;
 ; Quartus Prime Version              ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
 ; Revision Name                      ; sequence_101                                    ;
 ; Top-level Entity Name              ; top_seq_101                                     ;
@@ -1618,7 +1618,7 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.23 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.24 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -1627,8 +1627,8 @@ Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
 Info (144001): Generated suppressed messages file C:/Users/USER/Desktop/FSM_DEMO/Sequence_101/sequence_101.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 4 warnings
     Info: Peak virtual memory: 6845 megabytes
-    Info: Processing ended: Tue Apr  7 11:04:30 2026
-    Info: Elapsed time: 00:00:15
+    Info: Processing ended: Tue Apr  7 11:47:47 2026
+    Info: Elapsed time: 00:00:13
     Info: Total CPU time (on all processors): 00:00:22
 
 
