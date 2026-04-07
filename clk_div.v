@@ -18,17 +18,17 @@ output reg clk_out=1'b0;
 output reg clk_led=1'b0;
 
 //1s clock @50MHz
-parameter integer TICKS_1_5S = 150_000_000;// no. of ticks per 0.5s
-reg [27:0]tick_cnt = 28'b0;
+parameter integer TICKS_1_5S = 75_000_000;// no. of ticks per 0.5s
+reg [26:0]tick_cnt = 27'b0;
 
 always@(posedge clk_in)begin
 	
  if(tick_cnt==TICKS_1_5S-1)begin
-	tick_cnt <= 28'b0;
+	tick_cnt <= 27'b0;
 	clk_out <= ~clk_out;
 	clk_led <= ~clk_led;
 end
- else tick_cnt = tick_cnt + 28'b1;
+ else tick_cnt = tick_cnt + 27'b1;
 end
 
 endmodule 
