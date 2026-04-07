@@ -28,7 +28,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "clk50",
+					"name" : "clk_in",
 					"strict" : false
 				}
 			]
